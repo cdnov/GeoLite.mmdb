@@ -16,6 +16,25 @@
 - [GeoLite2-City.mmdb](https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-City.mmdb)
 - [GeoLite2-Country.mmdb](https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-Country.mmdb)
 
+### Matomo
+编辑 
+
+```
+/config/config.ini.php
+```
+在 [General] 在添加
+
+```php
+geolocation_download_from_trusted_hosts[] = "raw.githubusercontent.com"
+```
+#### GZ URL
+```https://raw.githubusercontent.com/cdnov/GeoLite.mmdb/download/GeoLite2-City.mmdb.gz```
+```https://raw.githubusercontent.com/cdnov/GeoLite.mmdb/download/GeoLite2-ASN.mmdb.gz```
+
+- [GeoLite2-ASN.mmdb](https://raw.githubusercontent.com/cdnov/GeoLite.mmdb/download/GeoLite2-ASN.mmdb.gz)
+- [GeoLite2-City.mmdb](https://raw.githubusercontent.com/cdnov/GeoLite.mmdb/download/GeoLite2-City.mmdb.gz)
+- [GeoLite2-Country.mmdb](https://raw.githubusercontent.com/cdnov/GeoLite.mmdb/download/GeoLite2-Country.mmdb.gz)
+
 ## License
 
 - Database and Contents Copyright (c) [MaxMind](https://www.maxmind.com/), Inc.
