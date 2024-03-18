@@ -29,6 +29,7 @@ geolocation_download_from_trusted_hosts[] = "raw.githubusercontent.com"
 ```
 #### GZ URL
 ```https://raw.githubusercontent.com/cdnov/GeoLite.mmdb/download/GeoLite2-City.mmdb.gz```
+
 ```https://raw.githubusercontent.com/cdnov/GeoLite.mmdb/download/GeoLite2-ASN.mmdb.gz```
 
 - [GeoLite2-ASN.mmdb](https://raw.githubusercontent.com/cdnov/GeoLite.mmdb/download/GeoLite2-ASN.mmdb.gz)
